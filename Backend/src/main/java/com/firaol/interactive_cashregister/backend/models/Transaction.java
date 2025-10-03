@@ -16,7 +16,7 @@ public class Transaction {
     private String companyId;
     private String userId;
     private String date;
-    private float total_amount;
+    private double total_amount;
 
     @Data
     private static class soldItem{

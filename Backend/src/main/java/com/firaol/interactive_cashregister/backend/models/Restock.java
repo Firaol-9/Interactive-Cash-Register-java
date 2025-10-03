@@ -9,22 +9,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "items")
-public class Item {
+@Document (collection = "restocks")
+public class Restock {
     @Id
     private String id;
+    private String itemId;
     private String companyId;
-    private String name;
-    private String categoryId;
-    private double purchasedPrice;
-    private double retailPrice;
-    private Stock stock;
-    private String imagePath;
-    private int code;
-
-    @Data
-    public static class Stock{
-        private int quantity;
-        private String unit;
-    }
+    private String userId;
+    private double quantity;
+    private double balanceAfter;
+    private String timeStamp;
 }
