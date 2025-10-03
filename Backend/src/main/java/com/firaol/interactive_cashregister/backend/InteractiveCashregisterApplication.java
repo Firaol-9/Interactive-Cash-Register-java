@@ -1,4 +1,4 @@
-package com.firaol.interactive_cashregister;
+package com.firaol.interactive_cashregister.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
