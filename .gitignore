@@ -1,0 +1,52 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Java
+*.class
+*.log
+
+# Build directories
+/out/
+/target/
+/build/
+**/out/
+/**/target/
+/**/build/
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar  # Keep wrapper jar if used
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar  # Keep wrapper jar if used
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+
+# Spring Boot (backend)
+/backend/src/main/resources/application-*.yml
+/backend/src/main/resources/application-*.properties
+/backend/src/main/resources/*.db
+/backend/*.log
+
+# JavaFX (frontend)
+/frontend/out/
+/frontend/build/
+/frontend/dist/
+/frontend/*.log
+
+#packaged installers (native-image, jpackage, etc.)
+/frontend/installer/
+/frontend/*.exe
+/frontend/*.msi
+/frontend/*.dmg
+/frontend/*.pkg
